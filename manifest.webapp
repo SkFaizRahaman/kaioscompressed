@@ -1,0 +1,30 @@
+{
+  "version": "1.2",
+  "name": "Slide the Shape",
+  "launch_path": "/SlidetheShape/index.html",
+  "description": "Swipe shape easy arcade game just pressed  Right and left to change direction of shapes and palace right position.",
+  "icons": {    
+    "56": "/SlidetheShape/icon56.png",
+    "112": "/SlidetheShape/icon112.png"
+},
+  "developer": {
+    "name": "Game Juice",
+    "url": "https://skfaizrahaman.github.io/SlidetheShape/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "categories": [
+  "games"
+  
+],
+ "locales": {
+    "en-US": {
+      "name": "Slide the Shape",
+      "subtitle": "Slide to Shape to Right Position",
+      "description": "Swipe shape easy arcade game just pressed  Right and left to change direction of shapes and palace right position."
+    }
+  },
+  "default_locale": "en-US",
+  "cursor": false
+}
