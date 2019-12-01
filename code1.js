@@ -109,7 +109,7 @@ if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 
 
 }; //End of gdjs.GameOverCode.eventsList0xb43b0
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
     // getKaiAd( config )
   
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })				
         
-    })
+    })*/
 
 
 
