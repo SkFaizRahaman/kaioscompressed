@@ -97,6 +97,9 @@ gdjs.GameOverCode.condition0IsTrue_0.val = false;
 gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.input.anyKeyPressed(runtimeScene);
 }if(!AdsPlay || offline){
     offline = true;
+    var s = document.createElement('script');
+    s.src = 'kaiads.min.js';
+    document.body.appendChild(s);
 if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainGame", true);
 }}
