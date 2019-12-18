@@ -1,15 +1,15 @@
 {
   "version": "1.2",
   "name": "Slide the Shape test",
-  "launch_path": "/SlidetheShape/index.html",
+  "launch_path": "/kaioscompressed/index.html",
   "description": "Swipe shape easy arcade game just pressed  Right and left to change direction of shapes and palace right position.",
   "icons": {    
-    "56": "/SlidetheShape/icon56.png",
-    "112": "/SlidetheShape/icon112.png"
+    "56": "/kaioscompressed/icon56.png",
+    "112": "/kaioscompressed/icon112.png"
 },
   "developer": {
     "name": "Game Juice",
-    "url": "https://skfaizrahaman.github.io/SlidetheShape/"
+    "url": "https://skfaizrahaman.github.io/kaioscompressed/"
   },
   "installs_allowed_from": [
     "*"
