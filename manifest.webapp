@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "name": "Slide the Shape",
+  "name": "Slide the Shape test",
   "launch_path": "/SlidetheShape/index.html",
   "description": "Swipe shape easy arcade game just pressed  Right and left to change direction of shapes and palace right position.",
   "icons": {    
@@ -20,7 +20,7 @@
 ],
  "locales": {
     "en-US": {
-      "name": "Slide the Shape",
+      "name": "Slide the Shape test",
       "subtitle": "Slide to Shape to Right Position",
       "description": "Swipe shape easy arcade game just pressed  Right and left to change direction of shapes and palace right position."
     }
