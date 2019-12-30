@@ -129,10 +129,10 @@ if (gdjs.GameOverCode.condition0IsTrue_0.val) {
                 
             
                 // calling 'display' will display the ad
-               // if(AdsPlay){
+                if(AdsPlay){
                 ad.call('display')
                 console.log("in ADs play");
-              //  }
+                }
           
       //      })
             ad.on('display', () => AdsPlay = true )
