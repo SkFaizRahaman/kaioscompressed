@@ -107,8 +107,9 @@ if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 
 
 }; //End of gdjs.GameOverCode.eventsList0xb43b0
+  document.addEventListener("keydown", function btnListener() {
 
-document.addEventListener("DOMContentLoaded", () => {
+
     // getKaiAd( config )
   
     getKaiAd({
@@ -117,29 +118,23 @@ document.addEventListener("DOMContentLoaded", () => {
         slot: 'FullScreenAD',
         test: 1,
        
-        onerror: err => 
-        {
-            document.addEventListener("keydown",function error(){
-            AdsPlay = false;
-            console.error(AdsPlay);
-            })
-        },
+        onerror: err => console.error('Custom catch:', err),
         onready: ad => {
             // Ad is ready to be displayed
             offline = false;
             // custom event
 
            
-            document.addEventListener("keydown", function btnListener() {
+        //    document.addEventListener("keydown", function btnListener() {
                 
             
                 // calling 'display' will display the ad
-                if(AdsPlay){
+               // if(AdsPlay){
                 ad.call('display')
                 console.log("in ADs play");
-                }
+              //  }
           
-            })
+      //      })
             ad.on('display', () => AdsPlay = true )
             ad.on('close', () => AdsPlay = false )
         }
