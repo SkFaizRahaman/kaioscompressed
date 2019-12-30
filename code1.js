@@ -107,7 +107,7 @@ if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 
 
 }; //End of gdjs.GameOverCode.eventsList0xb43b0
-/*
+
 document.addEventListener("DOMContentLoaded", () => {
     // getKaiAd( config )
   
@@ -115,6 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         publisher: '3b38ba5c-be76-40f3-9bec-a1f37e7a7378',
         app: 'Slide the Shape',
         slot: 'FullScreenAD',
+        test: 1,
        
         onerror: err => 
         {
@@ -144,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })				
         
-    })*/
+    })
 
 
 
